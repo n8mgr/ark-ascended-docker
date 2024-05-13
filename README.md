@@ -18,6 +18,7 @@ Settings in `.env`
 
 | Variable         | Default | Description
 | ---              | ---     | ---
+| 'MAP_NAME'       | TheIsland_WP | The name of the map to load (Either TheIsland_WP or ScorchedEarth_WP)
 | `SESSION_NAME`   | | Name of the server
 | `ADMIN_PASSWORD` | | Server [administrator](https://ark.fandom.com/wiki/Console_commands#EnableCheats) password
 | `MAX_PLAYERS`    | `20`    | Player slots (Max `70`)
