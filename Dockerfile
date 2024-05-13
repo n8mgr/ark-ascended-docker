@@ -25,5 +25,15 @@ ENV ARK_PATH="${STEAM_PATH}/steamapps/common/ARK Survival Ascended Dedicated Ser
 COPY ark-server.sh /usr/local/bin/ark-server
 RUN chmod +x /usr/local/bin/ark-server
 
+# Config vars
+ENV MAP_NAME=TheIsland_WP
+ENV GAME_PORT=7777
+ENV QUERY_PORT=27015
+ENV MAX_PLAYERS=20
+ENV SESSION_NAME=
+ENV ADMIN_PASSWORD=
+ENV MODS=
+ENV CMD_ARGS=
+
 WORKDIR $HOME
 ENTRYPOINT ["ark-server"]
