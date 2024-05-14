@@ -22,7 +22,6 @@ Settings in `.env`
 | `SESSION_NAME`   | | Name of the server
 | `ADMIN_PASSWORD` | | Server [administrator](https://ark.fandom.com/wiki/Console_commands#EnableCheats) password
 | `MAX_PLAYERS`    | `20`    | Player slots (Max `70`)
-| `QUERY_PORT`     | `27015` | UDP port
 | `GAME_PORT`      | `7777`  | UDP port
 | `MODS`     | | Comma-separated list of [CurseForge](https://www.curseforge.com/ark-survival-ascended) mod IDs to install (e.g. `928501,928728`)
 | `CMD_ARGS` | | Additional [command line arguments](https://ark.fandom.com/wiki/Server_configuration#Command_line_arguments) (e.g. `"-ForceAllowCaveFlyers -NotifyAdminCommandsInChat"`)

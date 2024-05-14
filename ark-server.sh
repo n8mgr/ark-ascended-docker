@@ -5,7 +5,7 @@ steamcmd +login anonymous +app_update 2430930 validate +quit
 
 # Start server with proton
 SERVER_CMD="$PROTON run \"${ARK_PATH}/Binaries/Win64/ArkAscendedServer.exe\" \
-  \"${MAP_NAME}?listen?SessionName=${SESSION_NAME}?ServerAdminPassword=${ADMIN_PASSWORD}?Port=${GAME_PORT}?QueryPort=${QUERY_PORT}?MaxPlayers=${MAX_PLAYERS}?\""
+  \"${MAP_NAME}?listen?SessionName=${SESSION_NAME}?ServerAdminPassword=${ADMIN_PASSWORD}?\" -WinLiveMaxPlayers=${MAX_PLAYERS} -port=${GAME_PORT}"
 
 # Install mods
 if [ -n "$MODS" ]; then
